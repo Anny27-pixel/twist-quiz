@@ -1,5 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import About from './components/About/About';
+import Blogs from './components/Blogs/Blogs';
 import Home from './components/Home/Home';
 import Main from './components/Layout/Main';
 import QuizTopics from './components/QuizTopics/QuizTopics';
@@ -17,6 +19,14 @@ function App() {
         {
           path: '/quizTopics',
           element: <QuizTopics></QuizTopics>
+        },
+        {
+          path: '/about',
+          element: <About></About>
+        },
+        {
+          path: '/blogs',
+          element: <Blogs></Blogs>
         }
       ]
     }
