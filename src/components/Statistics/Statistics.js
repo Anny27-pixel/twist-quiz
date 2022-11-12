@@ -5,7 +5,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContaine
 const Statistics = () => {
     const quiz = useLoaderData().data;
     return (
-        <div className='mx-auto w-1/2 lg:w-full '>
+        <div className=' mx-0 lg:mx-auto w-full '>
             <h1 className='text-3xl font-bold text-violet-600 text-center my-12'> Statistics of all quiz topics</h1>
             <div className='flex justify-center my-5 '>
                 <BarChart width={500} height={300} data={quiz}>
