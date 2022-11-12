@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+### live Website Link :
+
+
+
+### features of website 
+
+### you know about Twist Quiz
+### Different types of quiz topics
+### Many questions in each topics
+### Show current answer using toast
+### You can See how many ques of each topics 
+### you can see answer of each questions
+### Show statistics of all quiz topics
+### Blogs
