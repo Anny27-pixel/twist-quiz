@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TopicCard = ({ topic }) => {
-    const { name, logo, total } = topic;
+    const { id, name, logo, total } = topic;
     return (
         <div >
             <div className="card card-compact  bg-base-100 shadow-xl">
@@ -10,7 +11,7 @@ const TopicCard = ({ topic }) => {
                     <h2 className="card-title">{name}</h2>
                     <p>Total Question : {total}</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <Link to={`/topic/${id}`}> <button className="btn  bg-violet-600 text-white font-bold">Start Quiz </button></Link>
                     </div>
                 </div>
             </div>

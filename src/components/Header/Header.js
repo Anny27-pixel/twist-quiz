@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const menuItems = <>
         <li className='font-semibold'><Link to='/about'>About</Link></li>
-        <li className='font-semibold'><Link to='/'>Home</Link></li>
+        <li className='font-semibold'><Link to='/topics'>Topics</Link></li>
         <li className='font-semibold'><Link to='/blogs'>Blogs</Link></li>
 
 
